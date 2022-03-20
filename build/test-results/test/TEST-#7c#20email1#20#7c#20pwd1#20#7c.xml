@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="| email1 | pwd1 |" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-20T14:54:26" hostname="DIOGO-DESKTOP" time="0.008">
+  <properties/>
+  <testcase name="Given User is on home page" classname="| email1 | pwd1 |" time="0.0"/>
+  <testcase name="When User click on login link" classname="| email1 | pwd1 |" time="0.0"/>
+  <testcase name="And User insert your email1 and your pwd1" classname="| email1 | pwd1 |" time="0.001"/>
+  <testcase name="And User click in signIn button" classname="| email1 | pwd1 |" time="0.0"/>
+  <testcase name="Then User is will logged" classname="| email1 | pwd1 |" time="0.0"/>
+  <testcase name="classMethod" classname="| email1 | pwd1 |" time="0.011"/>
+  <system-out><![CDATA[on home page
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
