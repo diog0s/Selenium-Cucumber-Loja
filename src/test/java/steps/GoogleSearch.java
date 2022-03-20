@@ -29,13 +29,13 @@ public class GoogleSearch {
         driver.get("https://www.google.com/");
     }
 
-    @When("^user type a txt in search box$")
+    @And("^user type a txt in search box$")
     public void user_type_a_txt_in_search_box() {
         driver.findElement(By.xpath("//input[@title='Pesquisar']")).click();
         driver.findElement(By.xpath("//input[@title='Pesquisar']")).sendKeys("Test de software");
     }
 
-    @When("^tap in enter$")
+    @And("^tap in enter$")
     public void tap_in_enter() {
         driver.findElement(By.xpath("//input[@title='Pesquisar']")).sendKeys(Keys.ENTER);
     }

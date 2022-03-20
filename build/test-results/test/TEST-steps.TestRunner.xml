@@ -31,11 +31,11 @@ user is logged
 
     Examples: 
 click on login
-
+2
 click on signin button
 user is logged
 click on login
-
+4
 click on signin button
 user is logged
 
@@ -48,7 +48,7 @@ user is logged
 
 4 Scenarios (4 passed)
 20 Steps (20 passed)
-0m7.573s
+0m8.664s
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
