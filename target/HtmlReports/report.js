@@ -43,35 +43,35 @@ formatter.match({
   "location": "GoogleSearch.browser_is_opened()"
 });
 formatter.result({
-  "duration": 108021300,
+  "duration": 3293618200,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 16900,
+  "duration": 1533832100,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.user_type_a_txt_in_search_box()"
 });
 formatter.result({
-  "duration": 14700,
+  "duration": 447738300,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.tap_in_enter()"
 });
 formatter.result({
-  "duration": 14500,
+  "duration": 1512220800,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSearch.user_get_your_search_results()"
 });
 formatter.result({
-  "duration": 23000,
+  "duration": 766820900,
   "status": "passed"
 });
 formatter.uri("Login.feature");
@@ -119,35 +119,35 @@ formatter.match({
   "location": "Login.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 215000,
+  "duration": 661200,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 163700,
+  "duration": 379500,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_insert_your_email_and_your_password()"
 });
 formatter.result({
-  "duration": 101100,
+  "duration": 543700,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_in_signIn_button()"
 });
 formatter.result({
-  "duration": 109000,
+  "duration": 359400,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_is_will_logged()"
 });
 formatter.result({
-  "duration": 110600,
+  "duration": 360700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -257,14 +257,14 @@ formatter.match({
   "location": "Login.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 135700,
+  "duration": 702500,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 112300,
+  "duration": 442600,
   "status": "passed"
 });
 formatter.match({
@@ -281,21 +281,21 @@ formatter.match({
   "location": "Login.user_insert_your_email_and_your_pwd(int,int)"
 });
 formatter.result({
-  "duration": 2796600,
+  "duration": 9653800,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_in_signIn_button()"
 });
 formatter.result({
-  "duration": 124500,
+  "duration": 1359300,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_is_will_logged()"
 });
 formatter.result({
-  "duration": 98900,
+  "duration": 1389600,
   "status": "passed"
 });
 formatter.scenario({
@@ -339,14 +339,14 @@ formatter.match({
   "location": "Login.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 118500,
+  "duration": 557100,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 69900,
+  "duration": 1045500,
   "status": "passed"
 });
 formatter.match({
@@ -363,21 +363,21 @@ formatter.match({
   "location": "Login.user_insert_your_email_and_your_pwd(int,int)"
 });
 formatter.result({
-  "duration": 146300,
+  "duration": 645800,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_in_signIn_button()"
 });
 formatter.result({
-  "duration": 118100,
+  "duration": 255400,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_is_will_logged()"
 });
 formatter.result({
-  "duration": 82500,
+  "duration": 333100,
   "status": "passed"
 });
 });

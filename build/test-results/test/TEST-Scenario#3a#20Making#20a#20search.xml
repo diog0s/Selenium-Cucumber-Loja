@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Making a search" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-20T14:54:26" hostname="DIOGO-DESKTOP" time="0.004">
+<testsuite name="Scenario: Making a search" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-20T16:06:34" hostname="DIOGO-DESKTOP" time="4.28">
   <properties/>
-  <testcase name="Given browser is opened" classname="Scenario: Making a search" time="0.0"/>
-  <testcase name="When user is on home page" classname="Scenario: Making a search" time="0.001"/>
+  <testcase name="Given browser is opened" classname="Scenario: Making a search" time="0.002"/>
+  <testcase name="When user is on home page" classname="Scenario: Making a search" time="0.0"/>
   <testcase name="And user type a txt in search box" classname="Scenario: Making a search" time="0.0"/>
   <testcase name="And tap in enter" classname="Scenario: Making a search" time="0.0"/>
   <testcase name="Then user get your search results" classname="Scenario: Making a search" time="0.0"/>
-  <testcase name="classMethod" classname="Scenario: Making a search" time="0.118"/>
+  <testcase name="classMethod" classname="Scenario: Making a search" time="7.578"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 9544
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 20, 2022 1:06:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
 </testsuite>

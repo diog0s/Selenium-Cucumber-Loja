@@ -3,6 +3,7 @@ package steps;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -36,7 +37,7 @@ public class GoogleSearch {
 
     @When("^tap in enter$")
     public void tap_in_enter() {
-        driver.findElement(By.xpath("(//input[@class='gNO89b'])[2]")).click();
+        driver.findElement(By.xpath("//input[@title='Pesquisar']")).sendKeys(Keys.ENTER);
     }
 
     @Then("^user get your search results$")

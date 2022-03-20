@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="| email2 | pwd2 |" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-20T14:54:26" hostname="DIOGO-DESKTOP" time="0.003">
+<testsuite name="| email2 | pwd2 |" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-20T16:06:39" hostname="DIOGO-DESKTOP" time="0.015">
   <properties/>
   <testcase name="Given User is on home page" classname="| email2 | pwd2 |" time="0.0"/>
   <testcase name="When User click on login link" classname="| email2 | pwd2 |" time="0.0"/>
   <testcase name="And User insert your email2 and your pwd2" classname="| email2 | pwd2 |" time="0.0"/>
   <testcase name="And User click in signIn button" classname="| email2 | pwd2 |" time="0.0"/>
   <testcase name="Then User is will logged" classname="| email2 | pwd2 |" time="0.001"/>
-  <testcase name="classMethod" classname="| email2 | pwd2 |" time="0.006"/>
+  <testcase name="classMethod" classname="| email2 | pwd2 |" time="0.025"/>
   <system-out><![CDATA[
   Scenario Outline: login successful          # Login.feature:19
     Given User is on home page                # Login.user_is_on_home_page()
