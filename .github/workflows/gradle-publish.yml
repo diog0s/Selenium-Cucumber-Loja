@@ -37,4 +37,4 @@ jobs:
         gradle-version: 7.4
     
     - name: running tests
-      run: ./gradlew clean test
+      run: ./gradlew test
