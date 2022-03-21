@@ -22,8 +22,8 @@ public class LoginTwo {
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
-    @When("^user enters with (.*) e (.*)$")
-    public void user_enters_with_username_e_password(String username, String password) {
+    @When("^user enters with (.*) and (.*)$")
+    public void user_enters_with_username_and_password(String username, String password) {
         driver.findElement(By.xpath("//input[@id='email']")).click();
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='passwd']")).click();
