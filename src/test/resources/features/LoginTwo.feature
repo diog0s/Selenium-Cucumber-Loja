@@ -9,5 +9,4 @@ Feature: Test Login Functionality
 
     Examples:
       | username                    | password      |
-#      | diogotestselenium@gmail.com | selenium12345 |
       | diogotest@gmail.com         | 12345678      |
