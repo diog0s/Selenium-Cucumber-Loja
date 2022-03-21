@@ -22,12 +22,12 @@ public class LoginTwo {
         driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
-    @When("^user enters with username e password$")
-    public void user_enters_with_username_e_password() {
+    @When("^user enters with (.*) e (.*)$")
+    public void user_enters_with_username_e_password(String username, String password) {
         driver.findElement(By.xpath("//input[@id='email']")).click();
-        driver.findElement(By.xpath("//input[@id='email']")).sendKeys("diogotestselenium@gmail.com");
+        driver.findElement(By.xpath("//input[@id='email']")).sendKeys(username);
         driver.findElement(By.xpath("//input[@id='passwd']")).click();
-        driver.findElement(By.xpath("//input[@id='passwd']")).sendKeys("selenium12345");
+        driver.findElement(By.xpath("//input[@id='passwd']")).sendKeys(password);
     }
 
     @And("^user click on login button$")
