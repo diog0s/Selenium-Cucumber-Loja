@@ -1,20 +1,13 @@
-Feature: Login verifications
+Feature: Testing Login Functionality
 
-  Scenario: login successful
-    Given User is on home page
-    When User click on login link
-    And User insert your email and your password
-    And User click in signIn button
-    Then User is will logged
-
-  Scenario Outline: login successful
-    Given User is on home page
-    When User click on login link
-    And User insert your <email> and your <password>
-    And User click in signIn button
-    Then User is will logged
+  Scenario Outline: Check if login is successfully with valid credential
+    Given browser is open
+    And user is in login page
+    When user enters with <email> and <password>
+    And user click on login button
+    Then user is logged
 
     Examples:
-      | email  | password |
-      | email1 | pwd1     |
-      | email2 | pwd2     |
+      | email                       | password      |
+      | diogotestselenium@gmail.com | selenium12345 |
+      | diogotest@gmail.com         | 12345678      |

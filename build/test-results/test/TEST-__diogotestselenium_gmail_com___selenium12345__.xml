@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="__diogotestselenium_gmail_com___selenium12345__" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-22T19:04:49" hostname="DIOGO-DESKTOP" time="8.159">
+<testsuite name="__diogotestselenium_gmail_com___selenium12345__" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-22T19:16:01" hostname="DIOGO-DESKTOP" time="7.289">
   <properties/>
   <testcase name="Given_browser_is_open" classname="__diogotestselenium_gmail_com___selenium12345__" time="0.0"/>
   <testcase name="And_user_is_in_login_page" classname="__diogotestselenium_gmail_com___selenium12345__" time="0.0"/>
   <testcase name="When_user_enters_with_diogotestselenium_gmail_com_and_selenium12345" classname="__diogotestselenium_gmail_com___selenium12345__" time="0.0"/>
   <testcase name="And_user_click_on_login_button" classname="__diogotestselenium_gmail_com___selenium12345__" time="0.0"/>
-  <testcase name="Then_user_is_logged" classname="__diogotestselenium_gmail_com___selenium12345__" time="0.0"/>
-  <testcase name="classMethod" classname="__diogotestselenium_gmail_com___selenium12345__" time="8.16"/>
-  <system-out><![CDATA[Abriu o chrome
+  <testcase name="Then_user_is_logged" classname="__diogotestselenium_gmail_com___selenium12345__" time="0.001"/>
+  <testcase name="classMethod" classname="__diogotestselenium_gmail_com___selenium12345__" time="7.361"/>
+  <system-out><![CDATA[Open the Chrome
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

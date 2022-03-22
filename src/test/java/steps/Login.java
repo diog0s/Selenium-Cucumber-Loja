@@ -1,39 +1,44 @@
 package steps;
 
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import org.openqa.selenium.By;
+import pages.LoginPage;
 
-public class Login {
-    @Given("^User is on home page$")
-    public void user_is_on_home_page()  {
-        System.out.println("on home page");
+import static core.DriverFactory.getDriver;
+import static core.DriverFactory.killDriver;
+import static org.junit.Assert.assertEquals;
+
+public class Login extends LoginPage {
+    //WebDriver driver;
+    @Given("^browser is open$")
+    public void browserIsOpen() {
+        System.out.println("Open the Chrome");
     }
 
-    @When("^User click on login link$")
-    public void user_click_on_login_link() {
-        System.out.println("click on login");
+    @And("^user is in login page$")
+    public void userIsInLoginPage() {
+        getDriver().get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
     }
 
-    @When("^User insert your email and your password$")
-    public void user_insert_your_email_and_your_password() {
-        System.out.println("enters email and pwd");
+    @When("^user enters with ([^\"]*) and ([^\"]*)$")
+    public void userEntersWithEmailAndPassword(String email, String password) {
+        insertEmail(email);
+        insertPassword(password);
+
     }
 
-    @When("^User click in signIn button$")
-    public void user_click_in_signIn_button() {
-        System.out.println("click on signin button");
+    @And("^user click on login button$")
+    public void userClickOnLoginButton() {
+        clickOnLoginBtn();
     }
 
-    @Then("^User is will logged$")
-    public void user_is_will_logged() {
-        System.out.println("user is logged");
+    @Then("^user is logged$")
+    public void userIsLogged() {
+        String user = getDriver().findElement(By.xpath("//a[@class='account']")).getText();
+        assertEquals("Diogo Santos", user);
+        killDriver();
     }
-
-    @When("^User insert your email(\\d+) and your pwd(\\d+)$")
-    public void user_insert_your_email_and_your_pwd(int arg1, int arg2) {
-        System.out.println(arg1+arg2);
-    }
-
-
 }
