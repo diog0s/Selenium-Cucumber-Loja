@@ -41,4 +41,11 @@ public class Login extends LoginPage {
         assertEquals("Diogo Santos", user);
         killDriver();
     }
+
+    @Then("^user is not logged$")
+    public void userIsNotLogged() {
+        String alert = getDriver().findElement(By.xpath("//div[@class='alert alert-danger']/p")).getText();
+        assertEquals("There is 1 error", alert);
+        killDriver();
+    }
 }

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="__diogotest_gmail_com___werwerwewer__" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-22T19:48:50" hostname="DIOGO-DESKTOP" time="8.243">
+  <properties/>
+  <testcase name="Given_browser_is_open" classname="__diogotest_gmail_com___werwerwewer__" time="0.0"/>
+  <testcase name="And_user_is_in_login_page" classname="__diogotest_gmail_com___werwerwewer__" time="0.0"/>
+  <testcase name="When_user_enters_with_diogotest_gmail_com_and_werwerwewer" classname="__diogotest_gmail_com___werwerwewer__" time="0.0"/>
+  <testcase name="And_user_click_on_login_button" classname="__diogotest_gmail_com___werwerwewer__" time="0.0"/>
+  <testcase name="Then_user_is_not_logged" classname="__diogotest_gmail_com___werwerwewer__" time="0.0"/>
+  <testcase name="classMethod" classname="__diogotest_gmail_com___werwerwewer__" time="8.246"/>
+  <system-out><![CDATA[Open the Chrome
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
