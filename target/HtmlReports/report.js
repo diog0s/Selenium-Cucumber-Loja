@@ -1,80 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("GoogleSearch.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Google search functionality",
-  "description": "",
-  "id": "google-search-functionality",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 2,
-  "name": "Making a search",
-  "description": "",
-  "id": "google-search-functionality;making-a-search",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 3,
-  "name": "browser is opened",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "user is on home page",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "user type a txt in search box",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 6,
-  "name": "tap in enter",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "user get your search results",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "GoogleSearch.browser_is_opened()"
-});
-formatter.result({
-  "duration": 3374897600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "GoogleSearch.user_is_on_home_page()"
-});
-formatter.result({
-  "duration": 1384388100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "GoogleSearch.user_type_a_txt_in_search_box()"
-});
-formatter.result({
-  "duration": 595792400,
-  "status": "passed"
-});
-formatter.match({
-  "location": "GoogleSearch.tap_in_enter()"
-});
-formatter.result({
-  "duration": 2400224700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "GoogleSearch.user_get_your_search_results()"
-});
-formatter.result({
-  "duration": 895597100,
-  "status": "passed"
-});
-formatter.uri("Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Login.feature");
 formatter.feature({
   "line": 1,
   "name": "Login verifications",
@@ -119,35 +43,35 @@ formatter.match({
   "location": "Login.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 547700,
+  "duration": 79232000,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 359100,
+  "duration": 96100,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_insert_your_email_and_your_password()"
 });
 formatter.result({
-  "duration": 307700,
+  "duration": 86000,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_in_signIn_button()"
 });
 formatter.result({
-  "duration": 491300,
+  "duration": 90000,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_is_will_logged()"
 });
 formatter.result({
-  "duration": 379400,
+  "duration": 91800,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -257,14 +181,14 @@ formatter.match({
   "location": "Login.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 494800,
+  "duration": 95600,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 286600,
+  "duration": 71000,
   "status": "passed"
 });
 formatter.match({
@@ -281,21 +205,21 @@ formatter.match({
   "location": "Login.user_insert_your_email_and_your_pwd(int,int)"
 });
 formatter.result({
-  "duration": 6671300,
+  "duration": 1676100,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_in_signIn_button()"
 });
 formatter.result({
-  "duration": 294800,
+  "duration": 87000,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_is_will_logged()"
 });
 formatter.result({
-  "duration": 394700,
+  "duration": 64000,
   "status": "passed"
 });
 formatter.scenario({
@@ -339,14 +263,14 @@ formatter.match({
   "location": "Login.user_is_on_home_page()"
 });
 formatter.result({
-  "duration": 505000,
+  "duration": 84700,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_on_login_link()"
 });
 formatter.result({
-  "duration": 353000,
+  "duration": 63600,
   "status": "passed"
 });
 formatter.match({
@@ -363,21 +287,247 @@ formatter.match({
   "location": "Login.user_insert_your_email_and_your_pwd(int,int)"
 });
 formatter.result({
-  "duration": 880400,
+  "duration": 148500,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_click_in_signIn_button()"
 });
 formatter.result({
-  "duration": 288300,
+  "duration": 64800,
   "status": "passed"
 });
 formatter.match({
   "location": "Login.user_is_will_logged()"
 });
 formatter.result({
-  "duration": 395900,
+  "duration": 71400,
+  "status": "passed"
+});
+formatter.uri("LoginTwo.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Test Login Functionality",
+  "description": "",
+  "id": "test-login-functionality",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 3,
+  "name": "Check if login is successfully with valid credentials",
+  "description": "",
+  "id": "test-login-functionality;check-if-login-is-successfully-with-valid-credentials",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 4,
+  "name": "browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 5,
+  "name": "user is in login page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 6,
+  "name": "user enters with diogotestselenium@gmail.com and selenium12345",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 7,
+  "name": "user click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 8,
+  "name": "user is logged",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginTwo.browser_is_open()"
+});
+formatter.result({
+  "duration": 2039829500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTwo.user_is_in_login_page()"
+});
+formatter.result({
+  "duration": 3683152500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "diogotestselenium@gmail.com",
+      "offset": 17
+    },
+    {
+      "val": "selenium12345",
+      "offset": 49
+    }
+  ],
+  "location": "LoginTwo.userEntersWithUsernameAndPassword(String,String)"
+});
+formatter.result({
+  "duration": 399772800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTwo.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 5708199500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTwo.user_is_logged()"
+});
+formatter.result({
+  "duration": 688474200,
+  "status": "passed"
+});
+formatter.scenarioOutline({
+  "line": 10,
+  "name": "Check if login is successfully with valid credentials",
+  "description": "",
+  "id": "test-login-functionality;check-if-login-is-successfully-with-valid-credentials",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 11,
+  "name": "browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "user is in login page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "user enters with \u003cusername\u003e and \u003cpassword\u003e",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "user click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "user is logged",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 17,
+  "name": "",
+  "description": "",
+  "id": "test-login-functionality;check-if-login-is-successfully-with-valid-credentials;",
+  "rows": [
+    {
+      "cells": [
+        "username",
+        "password"
+      ],
+      "line": 18,
+      "id": "test-login-functionality;check-if-login-is-successfully-with-valid-credentials;;1"
+    },
+    {
+      "cells": [
+        "diogotestselenium@gmail.com",
+        "selenium12345"
+      ],
+      "line": 19,
+      "id": "test-login-functionality;check-if-login-is-successfully-with-valid-credentials;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 19,
+  "name": "Check if login is successfully with valid credentials",
+  "description": "",
+  "id": "test-login-functionality;check-if-login-is-successfully-with-valid-credentials;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 11,
+  "name": "browser is open",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 12,
+  "name": "user is in login page",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "user enters with diogotestselenium@gmail.com and selenium12345",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 14,
+  "name": "user click on login button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "user is logged",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginTwo.browser_is_open()"
+});
+formatter.result({
+  "duration": 1352378400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTwo.user_is_in_login_page()"
+});
+formatter.result({
+  "duration": 3124462200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "diogotestselenium@gmail.com",
+      "offset": 17
+    },
+    {
+      "val": "selenium12345",
+      "offset": 49
+    }
+  ],
+  "location": "LoginTwo.userEntersWithUsernameAndPassword(String,String)"
+});
+formatter.result({
+  "duration": 407283300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTwo.user_click_on_login_button()"
+});
+formatter.result({
+  "duration": 3148927800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginTwo.user_is_logged()"
+});
+formatter.result({
+  "duration": 656879900,
   "status": "passed"
 });
 });
