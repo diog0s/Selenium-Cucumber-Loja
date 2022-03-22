@@ -48,4 +48,11 @@ public class Login extends LoginPage {
         assertEquals("There is 1 error", alert);
         killDriver();
     }
+/*
+    @When("^user enters with ([^\"]*)$")
+    public void userEntersWithEmail(String email) {
+        insertEmail(email);
+    }
+
+ */
 }

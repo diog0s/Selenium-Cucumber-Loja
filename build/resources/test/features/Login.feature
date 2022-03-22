@@ -23,3 +23,15 @@ Feature: Testing Login Functionality
       | email                        | password    |
       | emailnaocadastrado@gmail.com | 54587855    |
       | diogotest@gmail.com          | werwerwewer |
+
+  Scenario Outline: Check if login is NOT successfully without email or password
+    Given browser is open
+    And user is in login page
+    When user enters with <email> and <password>
+    And user click on login button
+    Then user is not logged
+
+    Examples:
+      | email                       | password |
+      | diogotestselenium@gmail.com |          |
+      |                             | 123123   |

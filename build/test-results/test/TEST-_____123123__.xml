@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="_____123123__" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-22T20:14:40" hostname="DIOGO-DESKTOP" time="8.514">
+  <properties/>
+  <testcase name="Given_browser_is_open" classname="_____123123__" time="0.0"/>
+  <testcase name="And_user_is_in_login_page" classname="_____123123__" time="0.0"/>
+  <testcase name="When_user_enters_with__and_123123" classname="_____123123__" time="0.0"/>
+  <testcase name="And_user_click_on_login_button" classname="_____123123__" time="0.0"/>
+  <testcase name="Then_user_is_not_logged" classname="_____123123__" time="0.0"/>
+  <testcase name="classMethod" classname="_____123123__" time="8.516"/>
+  <system-out><![CDATA[Open the Chrome
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
